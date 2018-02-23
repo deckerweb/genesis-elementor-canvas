@@ -73,7 +73,7 @@ function ddw_gec_genesis_canvas_body_class( $classes ) {
 }  // end function
 
 
-add_action( 'wp_head', 'ddw_gec_add_genesis_meta', -1 );
+add_action( 'wp_head', 'ddw_gec_add_genesis_meta', 0 );
 /**
  * Add Genesis Action 'genesis_meta' within document header.
  *
@@ -86,8 +86,6 @@ function ddw_gec_add_genesis_meta() {
 	}
 
 	do_action( 'genesis_meta' );
-
-	remove_action( 'genesis_meta', 'genesis_responsive_viewport' );
 
 }  // end function
 
@@ -122,5 +120,20 @@ function ddw_gec_add_genesis_after() {
 	}
 
 	do_action( 'genesis_after' );
+
+}  // end function
+
+
+add_action( 'wp_head', 'ddw_gec_remove_double_viewport', -1 );
+/**
+ * Remove the doubled Viewport meta tag added by Genesis.
+ */
+function ddw_gec_remove_double_viewport() {
+
+	if ( ! is_page_template( 'elementor_canvas' ) ) {
+		return;
+	}
+
+	remove_action( 'genesis_meta', 'genesis_responsive_viewport' );
 
 }  // end function
