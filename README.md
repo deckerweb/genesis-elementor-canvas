@@ -1,7 +1,7 @@
 # Genesis Elementor Canvas
 
 * Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/genesis-elementor-canvas/graphs/contributors)
-* Tags: genesis, genesiswp, shortcode, shortcodes, shortcake, ui, visual, visual editor, footer, post, updated, last updated, date, time, item, post, element, link, studiopress
+* Tags: genesis, genesiswp, elementor, template, canvas, templates, page builder, studiopress
 * Requires at least: 4.5.0
 * Tested up to: 4.9.x
 * Required PHP: 5.4
