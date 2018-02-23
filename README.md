@@ -31,11 +31,6 @@ Just activate the plugin and you are done. Simple as that.
 * ["Elementor" plugin v1.9.6 or higher](https://wordpress.org/plugins/elementor/)
 * *PLEASE: For security and best support, always use the latest stable versions of WordPress, Genesis and plugins!*
 
-**Manual Upload**
-* Download current .zip archive from master branch here, URL: [https://github.com/deckerweb/genesis-elementor-canvas/archive/master.zip](https://github.com/deckerweb/genesis-elementor-canvas/archive/master.zip)
-* Unzip the package, then **rename the folder to `genesis-elementor-canvas`**, then upload renamed folder via SFTP/ FTP to your WordPress plugin directory
-* Activate the plugin
-
 **Via "GitHub Updater" Plugin** *(recommended!)*
 
 * Install & activate the "GitHub Updater" plugin, get from here: [https://github.com/afragen/github-updater](https://github.com/afragen/github-updater)
@@ -44,21 +39,15 @@ Just activate the plugin and you are done. Simple as that.
 * Paste the GitHub URL `https://github.com/deckerweb/genesis-elementor-canvas` in the "Plugin URI" field (branch "master" is pre-set), then hit the "Install Plugin" button there
 * Install & activate the plugin
 
+**Manual Upload**
+* Download current .zip archive from master branch here, URL: [https://github.com/deckerweb/genesis-elementor-canvas/archive/master.zip](https://github.com/deckerweb/genesis-elementor-canvas/archive/master.zip)
+* Unzip the package, then **rename the folder to `genesis-elementor-canvas`**, then upload renamed folder via SFTP/ FTP to your WordPress plugin directory
+* Activate the plugin
+
 **Updates**
 * Are done via the plugin "GitHub Updater" (see above) - leveraging the default WordPress update system!
 * Setting your GitHub API Token is recommended! :)
 * It's so easy and seamless you won't find any better solution for this ;-)
-
-
-## Translations:
-= Localization & Internationalizaton:
-
-* Used textdomain: `genesis-elementor-canvas`
-* Default `.pot` file included
-* German translations included (`de_DE`)
-* Plugin's own path for translations: `wp-content/plugins/genesis-elementor-canvas/languages/genesis-elementor-canvas-de_DE.mo`
-* *Recommended:* Global WordPress lang dir path for translations: `wp-content/languages/plugins/genesis-elementor-canvas-de_DE.mo` ---> *NOTE: if this file/path exists it will be loaded at higher priority than the plugin path! This is the recommended path & way to store your translations as it is update-safe and allows for custom translations!*
-* Recommended translation tools: *Poedit Pro v1.8+* or *WordPress Plugin "Loco Translate"* or *your IDE/ Code Editor* or *old WordPress plugin "Codestyling Localization"* (for the brave who know what they are doing :) )
 
 
 ## Changelog - Version History:
