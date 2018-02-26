@@ -11,7 +11,7 @@
  * Plugin Name:       Genesis Elementor Canvas
  * Plugin URI:        https://github.com/deckerweb/genesis-elementor-canvas
  * Description:       Optimizations for Elementor Canvas page template when used with Genesis.
- * Version:           2018.02.26
+ * Version:           2018.02.26.1
  * Author:            David Decker - DECKERWEB
  * Author URI:        https://deckerweb.de/
  * License:           GPL-2.0+

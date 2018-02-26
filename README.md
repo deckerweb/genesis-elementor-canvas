@@ -6,8 +6,8 @@
 * Tested up to: 4.9.x
 * Required PHP: 5.4
 * Stable tag: master
-* Current stable version: 2018.02.23
-* Donate link: [http://ddwb.me/9s](http://ddwb.me/9s)
+* Current stable version: 2018.02.26.1
+* Donate link: [https://ddwb.me/9s](http://ddwb.me/9s)
 * License: GPL-2.0+
 * License URI: [http://www.opensource.org/licenses/gpl-license.php](http://www.opensource.org/licenses/gpl-license.php)
 
@@ -26,7 +26,7 @@ Just activate the plugin and you are done. Simple as that.
 ## Plugin Installation:
 
 **Requirements/ Prerequisites**
-* [WordPress v4.5.0 or higher](https://wordpress.org/download/)
+* [WordPress v4.9.4 or higher](https://wordpress.org/download/)
 * [Genesis Framework v2.5.3 or higher](http://deckerweb.de/go/genesis/)
 * ["Elementor" plugin v1.9.6 or higher](https://wordpress.org/plugins/elementor/)
 * *PLEASE: For security and best support, always use the latest stable versions of WordPress, Genesis and plugins!*
