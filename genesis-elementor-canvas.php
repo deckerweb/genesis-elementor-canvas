@@ -20,6 +20,8 @@
  * Domain Path:       /languages/
  * GitHub Plugin URI: https://github.com/deckerweb/genesis-elementor-canvas
  * GitHub Branch:     master
+ * Requires WP:       4.5
+ * Requires PHP:      5.4
  *
  * Copyright (c) 2018 David Decker - DECKERWEB
  */
