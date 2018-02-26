@@ -6,7 +6,7 @@
 * Tested up to: 4.9.x
 * Required PHP: 5.4
 * Stable tag: master
-* Current stable version: 2018.02.26.1
+* Current stable version: 2018.02.26.2
 * Donate link: [https://ddwb.me/9s](http://ddwb.me/9s)
 * License: GPL-2.0+
 * License URI: [http://www.opensource.org/licenses/gpl-license.php](http://www.opensource.org/licenses/gpl-license.php)
